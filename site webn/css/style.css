@@ -1,0 +1,95 @@
+
+body{
+	background: black;
+}
+header{
+	background:;
+	background-size: cover;
+	background-position: center;
+}
+.principale{
+
+}
+.logo a{
+	color: white;
+	padding: 0px 20px;
+	border:1px solid white;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-transform: uppercase;
+	text-decoration:none;
+	font-weight: 900;
+	text-shadow: rgba(0,0,0,0.7);
+}
+.logo span{
+	color: rgb(238,56,11 );
+	font-weight: bold;
+	font-size: 2rem;
+
+}
+ul{
+	list-style: none;
+	float: right;
+	display: flex;
+	margin-top: 20px;
+
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border:1px solid white;
+	margin: 10px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+ul li a:hover{
+	background: white;
+	color: black;
+}
+ul li.active{
+	background: white; 
+	color: black;
+}
+.titre{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+}
+.titre h1{
+	color: white;
+	font-size: 50px;
+}
+#contenus{
+	width: 1200px;
+	top: 10%;
+	left: 10%;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: absolute;
+}
+#contenus p{
+	padding-left: 80px;
+	padding-bottom: 25px;
+	font-family: Arial;
+	line-height: 30px;
+}
+#contenus h1{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left: 80px;
+	letter-spacing: 2px;
+}
+#contenus h3{
+	font-family: 'Times New Roman';
+	font-size: 30px;
+	padding-left: 80px;
+	margin-top: 2 %;
+	letter-spacing: 2px;
+}
